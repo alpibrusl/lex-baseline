@@ -1,0 +1,12 @@
+[package]
+name    = "lex-baseline"
+version = "0.1.0"
+lex     = "0.10.11"
+
+# Measurement and verification for demand flexibility: a named,
+# content-addressed baseline method, and a delivered-volume computation any
+# counterparty can replay from the same inputs.
+
+[dependencies]
+lex-schema = { git = "https://github.com/alpibrusl/lex-schema" }
+lex-crypto = { git = "https://github.com/alpibrusl/lex-crypto" }
