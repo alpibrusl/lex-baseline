@@ -46,5 +46,7 @@ It does not read a meter, talk to a database, or know what a charge point is. Re
 
 ## License
 
-[EUPL-1.2](LICENSE) — the European Union Public Licence, as used across the `lex-*` ecosystem.
+Copyright (c) 2026 lex-baseline contributors.
+
+Licensed under the [EUPL-1.2](LICENSE) — the European Union Public Licence, as used across the `lex-*` ecosystem.
 
