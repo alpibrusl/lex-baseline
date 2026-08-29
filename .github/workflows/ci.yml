@@ -15,3 +15,9 @@ jobs:
           tar -xzf /tmp/lex.tgz -C /tmp
           echo "/tmp/lex-v$V-$T" >> "$GITHUB_PATH"
       - run: lex ci
+
+      # The validation screen is a reimplementation of src/divergence.lex in
+      # another language. It is only worth anything if the two agree, so the
+      # cross-check runs here rather than living in a README as a claim.
+      - name: The validation screen still matches the Lex implementation
+        run: cd validation/uk-balancing && python3 screen.py
